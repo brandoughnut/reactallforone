@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Button, Modal } from 'flowbite-react';
 
 export default function HomeComponent() {
@@ -23,72 +24,61 @@ export default function HomeComponent() {
           <div className="">
 
                 <div className="text-center pb-10 RobotoFont">
-                  <a
-                    href="index.html"
+                  <Link to={'/'}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Home</p>
-                  </a>
-                  <a
-                    href="./pages/SayHello.html"
+                  </Link>
+                  <Link to={'SayHello'}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Say Hello</p>
-                  </a>
-                  <a
-                    href="./pages/Add2Numbers.html"
+                  </Link>
+                  <Link to={'Add2Numbers'}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Add 2 Numbers</p>
-                  </a>
-                  <a
-                    href="./pages/AskingQuestions.html"
+                  </Link>
+                  <Link to={'AskingQuestions'}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Asking Questions</p>
-                  </a>
-                  <a
-                    href="./pages/GreaterorLess.html"
+                  </Link>
+                  <Link to={'GreaterOrLess'}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Greater or Less</p>
-                  </a>
-                  <a
-                    href="./pages/MadLib.html"
+                  </Link>
+                  <Link to={'MadLib'}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Mad Lib</p>
-                  </a>
-                  <a
-                    href="./pages/OddorEven.html"
+                  </Link>
+                  <Link to={'OddOrEven'}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Odd or Even</p>
-                  </a>
-                  <a
-                    href="./pages/ReverseItWords.html"
+                  </Link>
+                  <Link to={'ReverseItWords'}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Reverse It Words</p>
-                  </a>
-                  <a
-                    href="./pages/RestaurantPicker.html"
+                  </Link>
+                  <Link to={'ReverseItNumbers'}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Reverse It Numbers</p>
-                  </a>
-                  <a
-                    href="./pages/RestaurantPicker.html"
+                  </Link>
+                  <Link to={'RestaurantPicker'}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Restaurant Picker</p>
-                  </a>
-                  <a
-                    href="./pages/Magic8Ball.html"
+                  </Link>
+                  <Link to={'Magic8Ball'}
                     className="text-[25px]"
                   >
                     <p>Magic 8 Ball</p>
-                  </a>
+                  </Link>
                 </div>
 
             

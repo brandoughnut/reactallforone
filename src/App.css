@@ -11,6 +11,10 @@
   background-image: url(./assets/background.png);
 }
 
+.submitBtn {
+  background-image: url(./assets/submitBtn.png);
+}
+
 .RobotoFont{
   font-family: Roboto-Bold;
 }
