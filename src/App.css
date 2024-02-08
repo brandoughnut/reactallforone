@@ -1,3 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./fonts/Roboto/Roboto-Bold.ttf);
+}
+
+.BG {
+  background-image: url(./assets/background.png);
+}
+
+.RobotoFont{
+  font-family: Roboto-Bold;
+}
+
 .App {
   text-align: center;
 }
