@@ -31,7 +31,7 @@ function App() {
           </div>
 
           <Modal show={openModal} size="md" onClose={() => setOpenModal(false)} popup>
-        <Modal.Header className="bg-[#EE8096]" />
+        <Modal.Header className="bg-[#EE8096]"/>
         <Modal.Body className="text-center relative p-4 w-full max-h-full bg-[#EE8096]">
           <div className="">
 
