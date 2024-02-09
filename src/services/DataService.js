@@ -58,4 +58,4 @@ const Magic8Ball = async () => {
     return data;
 }
 
-export {SayHello, Add2Numbers, AskingQuestions, GreaterOrLess, MadLib, OddOrEven, ReverseItWords, ReverseItNumbers, RestaurantPicker, Magic8Ball}
+export { SayHello, Add2Numbers, AskingQuestions, GreaterOrLess, MadLib, OddOrEven, ReverseItWords, ReverseItNumbers, RestaurantPicker, Magic8Ball }
