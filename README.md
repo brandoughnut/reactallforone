@@ -1,3 +1,11 @@
+Name: Brandon Nguyen
+Date: 2/9/2024
+Lab Name: All For One React Rebuild
+Brief Description: Recreating the our all for one assignment, but using react
+Peer Reviewer: 
+Peer Review Comments: 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
