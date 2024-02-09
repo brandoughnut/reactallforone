@@ -24,7 +24,7 @@ function App() {
 <div className="hidden sm:block">
 
           <div className="flex justify-center py-14">
-          <Button color="bg-[#EE8096]" className="block text-black bg-[#EE8096] font-medium rounded-2xl text-sm px-5 py-8 text-center RobotoFont" onClick={() => setOpenModal(true)}>
+          <Button color="bg-[#EE8096]" className="block text-black bg-[#EE8096] font-medium rounded-2xl text-sm px-5 py-7 text-center RobotoFont" onClick={() => setOpenModal(true)}>
             <div className="text-[50px]">Page List</div>
             </Button>
             
