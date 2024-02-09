@@ -7,7 +7,7 @@ export default function OddOrEvenComponent() {
     <div>
       
       <div className="text-center mb-8 sm:mb-16">
-        <p className="text-[30px] sm:text-[75px] lg:text-[100px] mb-8 sm:mb-16 RobotoFont">Odd Or Even</p>
+        <p className="text-[30px] sm:text-[75px] lg:text-[100px] mb-8 sm:mb-16 RobotoFont">Odd or Even</p>
       </div>
 
       <div className="flex justify-center mb-8 sm:mb-16 ">

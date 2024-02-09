@@ -8,7 +8,7 @@ export default function AskingQuestionsComponent() {
       
       <div className="text-center mb-8 sm:mb-16 RobotoFont">
         <p className="text-[30px] sm:text-[100px] mb-8 sm:mb-16">Asking Questions</p>
-        <p className="text-[15px] sm:text-[50px]">Hello, What is your name?</p>
+        <p className="text-[15px] sm:text-[50px]">Hello, what is your name?</p>
       </div>
 
         <div className="flex justify-center mb-8 sm:mb-16 ">
