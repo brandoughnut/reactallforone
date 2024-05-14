@@ -37,56 +37,67 @@ function App() {
 
                 <div className="text-center pb-10 RobotoFont">
                   <Link to={'/'}
+                    onClick={()=> {setOpenModal(false)}}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Home</p>
                   </Link>
                   <Link to={'SayHello'}
+                    onClick={()=> {setOpenModal(false)}}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Say Hello</p>
                   </Link>
                   <Link to={'Add2Numbers'}
+                    onClick={()=> {setOpenModal(false)}}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Add 2 Numbers</p>
                   </Link>
                   <Link to={'AskingQuestions'}
+                    onClick={()=> {setOpenModal(false)}}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Asking Questions</p>
                   </Link>
                   <Link to={'GreaterOrLess'}
+                    onClick={()=> {setOpenModal(false)}}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Greater or Less</p>
                   </Link>
                   <Link to={'MadLib'}
+                    onClick={()=> {setOpenModal(false)}}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Mad Lib</p>
                   </Link>
                   <Link to={'OddOrEven'}
+                    onClick={()=> {setOpenModal(false)}}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Odd or Even</p>
                   </Link>
                   <Link to={'ReverseItWords'}
+                    onClick={()=> {setOpenModal(false)}}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Reverse It Words</p>
                   </Link>
                   <Link to={'ReverseItNumbers'}
+                    onClick={()=> {setOpenModal(false)}}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Reverse It Numbers</p>
                   </Link>
                   <Link to={'RestaurantPicker'}
+                    onClick={()=> {setOpenModal(false)}}
                     className="text-[25px]"
                   >
                     <p className="mb-4">Restaurant Picker</p>
                   </Link>
                   <Link to={'Magic8Ball'}
+                    onClick={()=> {setOpenModal(false)}}
                     className="text-[25px]"
                   >
                     <p>Magic 8 Ball</p>
